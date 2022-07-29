@@ -1,0 +1,66 @@
+﻿body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/* Products Listing
+-------------------------------------------------- */
+.product-name {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+    height: 2.6rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/* Sweet Alert
+-------------------------------------------------- */
+h2.swal2-title {
+    letter-spacing: 1px;
+}
+
+/* Basket
+-------------------------------------------------- */
+.number-input > .quantity {
+    width: 90px;
+}
